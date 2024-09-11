@@ -1,13 +1,152 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: 	 #e6e6e6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.customImg{
+  height: 100px;
+  object-fit: contain;
+  aspect-ratio: 1/1;
 }
+
+.card{
+  overflow: hidden;
+  height: 400px;
+}
+
+.card:hover{
+  
+  transform: scale(1.02,1.01);
+  transition: background-color 0.3s ease, transform 0.3s ease
+}
+
+.customTitle{
+  height: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.customPrice{
+  height: 20px;
+  font-size:13px;
+  font-weight: bold;
+}
+
+.customDes{
+  height: 100px;
+  font-size: small;
+  overflow: auto;
+}
+.customDes::-webkit-scrollbar {
+  width: 8px;  /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+.itemImg{
+  height: 50%;
+  width: 100%;
+
+}
+
+.customRating{
+  aspect-ratio: 1/1;
+  height: fit-content;
+  width: 30px;
+}
+
+.fixed-div{
+  position: sticky;
+  overflow: hidden;
+  height: 100vh;
+  top:0;
+  align-items: center;
+  display: flex;
+}
+
+.scrollable-div{
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-left: 15px;
+}
+
+.customDiv{
+  width: 60%;
+  float: left;
+  padding: 0%;
+}
+
+.customCard{
+  padding: 0%;
+  margin-top: 6%;
+  margin-left: 5%;
+  height: fit-content !important;
+}
+
+
+.customFix{
+  position: sticky;
+  width: 40%;
+  height: 100vh;
+  top:0;
+  padding: 0%;
+  
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .card{
+      height: 350px;
+    }
+    .customImg{
+      height: 80px;
+    }
+    .customTitle{
+      height: 30px;
+    }
+    .customPrice{
+      height: 15px;
+    }
+    .customDes{
+      height: 90px;
+    }
+    .itemImg{
+      height: 300px;
+      width: 80%;
+      padding-bottom: 0%;
+      margin-left: 10%;
+      margin-bottom: 0%;
+    }
+    .customRating{
+      aspect-ratio: 1/1;
+      height: fit-content;
+      width: 23px;
+    }
+    .fixed-div{
+      position: unset;
+      height: fit-content;
+    }
+    .scrollable-div{
+      overflow-y: auto;
+    }
+}
+
+
+.btn{
+  background-color: blueviolet;
+  border: none;
+}
+
+.btnG{
+  background-color: yellow;
+  color:black;
+}
+
+.btnR{
+  background-color: rgb(163, 51, 51);
+}
+
+.btn:hover{
+  background-color: rgb(84, 190, 84);
+}
+
+
