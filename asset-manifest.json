@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pranav-Sutar47/EcommerceFrontend/static/css/main.74155cb3.css",
+    "main.js": "/Pranav-Sutar47/EcommerceFrontend/static/js/main.297ec7c9.js",
+    "static/js/453.2d40735f.chunk.js": "/Pranav-Sutar47/EcommerceFrontend/static/js/453.2d40735f.chunk.js",
+    "index.html": "/Pranav-Sutar47/EcommerceFrontend/index.html",
+    "main.74155cb3.css.map": "/Pranav-Sutar47/EcommerceFrontend/static/css/main.74155cb3.css.map",
+    "main.297ec7c9.js.map": "/Pranav-Sutar47/EcommerceFrontend/static/js/main.297ec7c9.js.map",
+    "453.2d40735f.chunk.js.map": "/Pranav-Sutar47/EcommerceFrontend/static/js/453.2d40735f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74155cb3.css",
+    "static/js/main.297ec7c9.js"
+  ]
+}
